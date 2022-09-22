@@ -1,0 +1,35 @@
+.day-forecast-box {
+  width: 98%;
+  border-radius: 14px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.167);
+  display: flex;
+  justify-content: space-around;
+}
+.item-box {
+  display: flex;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(50, 50, 50, 0.25);
+  padding: 5px;
+}
+.item-more-dets {
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 14px;
+  color: aliceblue;
+  padding-left: 8px;
+  margin-left: 8px;
+}
+.label {
+  font-weight: bold;
+}
+.header {
+  font-weight: bolder;
+  color: aliceblue;
+}
+.main-box {
+  text-align: center;
+}
+.item {
+  color: aliceblue;
+}
